@@ -1,0 +1,7 @@
+variable,value
+initial_capital,100.0
+initial_wealth,100.0
+initial_bank_assets,1000.0
+initial_price,1.0
+initial_wage,1.0
+initial_euribor,0.01
