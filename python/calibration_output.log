@@ -1,0 +1,40 @@
+============================================================
+STAGE 1: Coarse Grid Search
+============================================================
+Calibrating on 8 cores...
+Parameter combinations: 27
+Runs per combination: 50
+Total simulations: 1350
+
+Calibration completed in 3.0s
+Best parameters: markup=1.100, mpc=0.800, spread=0.0200
+Best error: 143126430309.26
+
+============================================================
+STAGE 2: Fine Grid Search
+============================================================
+Calibrating on 8 cores...
+Parameter combinations: 125
+Runs per combination: 100
+Total simulations: 12500
+
+Calibration completed in 17.4s
+Best parameters: markup=1.050, mpc=0.850, spread=0.0150
+Best error: 142828628379.77
+
+============================================================
+STAGE 3: Validation
+============================================================
+
+Validating with 1000 runs...
+nominal_gdp: RMSE=76851.07, Relative Error=95.91%
+nominal_gva: RMSE=71279.24, Relative Error=100.03%
+
+============================================================
+CALIBRATION COMPLETE
+============================================================
+Final parameters: (np.float64(1.05), np.float64(0.8500000000000001), np.float64(0.015))
+Files saved:
+  - calibration_results.csv
+  - best_model_results.csv
+  - validation_statistics.csv
