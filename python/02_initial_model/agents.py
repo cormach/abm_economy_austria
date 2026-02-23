@@ -17,7 +17,7 @@ class Firm(Agent):
         # Prices and costs
         self.price = 1.0
         self.unit_cost = 1.0
-        self.wage = 1.0
+        self.wage = 75.0
         
         # Financial
         self.deposits = 0.0
